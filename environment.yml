@@ -9,6 +9,7 @@ dependencies:
   - cudatoolkit=11.0
   - pytorch=1.7.1
   - torchvision=0.8.2
+  - pytorch-lightning=1.5.*
   - torchaudio=0.7.2
   - numpy=1.19.*
   - scipy=1.6.*
@@ -22,7 +23,6 @@ dependencies:
   - pip
   - pip:
     - transformers==4.17.0
-    - pytorch-lightning==1.5.10
     - torchmetrics==0.7.3
     - tensorboard==2.8.0
     - tensorboardx==2.5
